@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Primarycolor:#FF8B0D;
+    --seconderycolor:blue;
+    --textcolor:rgb(62, 61, 61);
+    --backgroundcolor:#F9F9F9;
+}
+body{
+     font-family: "Poppins";
+     font-size: 1.2rem;
+     overflow: auto;
+}
+.payment-section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.checkout{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+}
+.contact-details{
+    width: 30vw;
+}
+.contact-details p{
+    font-size: 12px;
+    font-weight: 600;
+    color:#A9B1B6;
+    padding-bottom: 25px;
+}
+.contact-details h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #394B58;
+}
+.contact-details label{
+    font-size: 12px;
+    font-weight: 600;
+    color: #394B58;
+}
+.contact-details input{
+    display: block;
+    padding: .9rem 17.5rem .9rem 1rem;
+    background-color: #F6F8F9;
+    border-radius: 10px;
+    border: 2px solid #A9B1B6;
+    margin-bottom: 25px;
+}
+.pay-details{
+    width: 30vw;
+}
+.pay-details h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #394B58;
+}
+.pay-info{
+    border: 1px solid #A9B1B6;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.pay-option{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.pay-option .option:nth-child(4){
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pay-option .option:nth-child(1){
+    border-color: var(--Primarycolor);
+    color: var(--Primarycolor);
+}
+.option{
+    border: 1px solid black;
+    width: 8vw;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 18px;
+}
+.card-details{
+    padding: 10px;
+}
+.card-details label{
+    font-size: 12px;
+    font-weight: 600;
+    color: #394B58;
+    display: block;
+    margin-bottom: 5px;
+}
+.card-no input{
+    display: block;
+    padding: .9rem 14.7rem .9rem 1rem;
+    background-color: #F6F8F9;
+    border-radius: 10px;
+    border: 2px solid #A9B1B6;
+    margin-bottom:5px ;
+}
+.other-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+
+}
+.input input{
+    padding: .9rem 1rem .9rem 1rem;
+    background-color: #F6F8F9;
+    border-radius: 10px;
+    border: 2px solid #A9B1B6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.payment{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    gap: 30px;   
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F8F9;
+}
+.payment h4{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #394B58;
+}
+.coupon{
+    width: 25vw;
+    background-color: white;
+    border: 1px solid rgb(205, 204, 204);
+    padding: 10px;
+    border-radius: 10px;
+}
+.coupon h6{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 0 5px 0;
+}
+ .coupon input{
+    padding: 15px 65px 15px 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(205, 204, 204); 
+    font-size: 12px;
+    margin-right: 5px;
+}
+.coupon button{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border:none;
+    background-color: #2378FF;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+ .coupon td{
+    color:#AAB1B7;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.coupon td:nth-child(2){
+    padding-left: 11rem;
+    display: flex;
+    justify-content: end;  
+   
+}
+ .coupon tfoot td{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+ .coupon tfoot td:nth-child(1){
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.coupon .pay-now-btn{
+    display:flex;
+    flex-direction: column; 
+     
+}
+ .pay-now-btn button{
+    background-color: var(--Primarycolor);
+    border: none;
+    border-radius: 10px;
+    padding: 20px 20px;
+    width: 25vw;
+}
+.pay-now-btn .payment-icon img{
+    width: 70px;
+    object-fit:contain;
+
+}
+.pay-now-btn .payment-icon{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0;
+}
+.pay-now-btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
